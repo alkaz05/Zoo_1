@@ -29,5 +29,5 @@ public abstract class Animal {
 
     public abstract void move();
 
-    public abstract String makeSound();
+    public abstract void makeSound();
 }
