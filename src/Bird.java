@@ -14,8 +14,8 @@ abstract public class Bird extends Animal {
     public abstract String scream();
 
     @Override
-    public String makeSound() {
+    public void makeSound() {
         System.out.println(scream());
-        return null;
+
     }
 }

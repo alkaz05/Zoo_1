@@ -1,8 +1,8 @@
-public class Serval extends Animal {
+public class Serval extends Mammal {
 
         String breed;
     public Serval ( String name, double weight, String breed) {
-            super(name, weight);
+            super(name, weight, false);
             this.breed = breed;
         }
 
@@ -12,7 +12,8 @@ public class Serval extends Animal {
     }
 
     @Override
-    public void makeSound() {   ;
+    public void makeSound() {
+        System.out.println("Мяу");
         };
 
     }

@@ -17,9 +17,9 @@ public class Wolf extends Mammal {
     }
 
     @Override
-    public String makeSound() {
+    public void makeSound() {
         this.howl();
-        return null;
+
     }
 
     @Override
