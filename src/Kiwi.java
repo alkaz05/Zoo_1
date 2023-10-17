@@ -5,11 +5,11 @@ public class Kiwi extends Bird{
 
     @Override
     public void move() {
-
+        System.out.println("Киви умеет ходить и прыгать");
     }
 
     @Override
     public String scream() {
-        return null;
+        return "кии-ви-кии-ви";
     }
 }
