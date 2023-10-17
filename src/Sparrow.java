@@ -1,7 +1,7 @@
 public class Sparrow extends Bird {
 
-    public Sparrow(String featherColor) {
-        super(featherColor);
+    public Sparrow() {
+        super("Коричневый");
     }
 
     @Override
