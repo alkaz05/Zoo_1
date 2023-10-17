@@ -1,7 +1,8 @@
-public class Elephant extends Animal{
+public class Elephant extends Mammal{
         int height;
      String color;
     public Elephant(int height, String color) {
+        super("", 0, true);
         setHeight(height);
         this.color = color;
     }

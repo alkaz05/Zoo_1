@@ -1,9 +1,9 @@
-public class Hippopotam extends Animal{
+public class Hippopotam extends Mammal{
     double weight;
     double speed;
 
     public Hippopotam(String name, double weight, double speed) {
-        super(name, weight);
+        super(name, weight, true);
         this.speed = speed;
     }
     @Override
