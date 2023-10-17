@@ -1,6 +1,6 @@
 public class Kenguru extends Animal {
     public Kenguru(String pocketSize) {
-        super(pocketSize);
+
     }
 
     /**
@@ -15,12 +15,9 @@ public class Kenguru extends Animal {
      * @return
      */
     @Override
-    public String makeSound() {
-        return "кричит ARRRRRRR";
+    public void makeSound() {
+        System.out.println( "кричит ARRRRRRR");
     }
 
-    @Override
-    public String jumping(jumping) {
 
-    }
 }

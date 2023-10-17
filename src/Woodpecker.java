@@ -1,5 +1,5 @@
 public class Woodpecker extends Bird {
-    public Crow(String name, String colorCap) {
+    public Woodpecker(String name, String colorCap) {
         super(name, 0, colorCap);
     }
 

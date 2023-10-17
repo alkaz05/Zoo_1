@@ -1,5 +1,24 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
+        //exampleBirs0();
+        exampleBirs1();
+
+    }
+
+    private static void exampleBirs1() {
+        Bird[] birds = new Bird[]{
+                        new Thrush(),
+                        new Flamingo("Дульсинея",2,"розовый", 1, 1.2),
+                        new Perrot("Кеша", 0.3, "зелёный"),
+                        new Kalibri("красный"),
+                        new Swallow("Лина","черный")
+        };
+        System.out.println(Arrays.toString(birds));
+    }
+
+    private static void exampleBirs0() {
         //Bird b = new Bird("blue") ;
         Bird cr = new Crow("белая");
         System.out.println(cr.getClass());

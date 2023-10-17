@@ -33,5 +33,10 @@ public abstract class Animal {
 
     public abstract void makeSound();
 
-
+    @Override
+    public String toString() {
+        return getClass().getName()+"{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

@@ -1,7 +1,7 @@
-public class Cat extends Animal{
+public class Cat extends Mammal{
     String breed;
     public Cat ( String name, double weight, String breed) {
-        super(name, weight);
+        super(name, weight, false);
         this.breed = breed;
     }
 
@@ -12,7 +12,8 @@ public class Cat extends Animal{
     }
 
     @Override
-    public String makeSound() {   return "[ХХ...ШШШШШШШШШШШ]";
+    public void makeSound() {
+        System.out.println( "[ХХ...ШШШШШШШШШШШ]");
         }
     }
 
