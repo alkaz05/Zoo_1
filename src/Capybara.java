@@ -1,4 +1,4 @@
-public class Capybara extends Animal{
+public class Capybara extends Animal{ //Светлана
     @Override
     public void move() {
         System.out.println("ходит прыгает и павает");
