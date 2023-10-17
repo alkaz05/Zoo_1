@@ -12,7 +12,7 @@ public class Serval extends Animal {
     }
 
     @Override
-    public String makeSound() {    return "[ХХ...ШШШШШШШШШШШ]";
+    public void makeSound() {   ;
         };
 
     }
