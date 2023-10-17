@@ -4,6 +4,7 @@ import animals.IFlyer;
 import animals.IJumper;
 
 public class Crow extends Bird implements IJumper, IFlyer {
+    //ворона это класс, который наследует классу Птица и умеет летать и прыгать
     public Crow(String featherColor) {
         super(featherColor);
     }

@@ -9,7 +9,7 @@ public class Kalibri extends Bird {
     }
     @Override
     public String scream() {
-        return "звук пьщей нектар птицы";
+        return "звук пьющей нектар птицы";
     }
     @Override
     public void move() {

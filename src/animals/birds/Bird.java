@@ -3,6 +3,10 @@ package animals.birds;
 import animals.Animal;
 
 abstract public class Bird extends Animal {
+    // класс Птица объявлен абстрактным, потому что у него
+    // есть абстрактный метод "кричать" (каждая конкретная птица кричит по-своему)
+    // Нельзя создать Птицу вообще, но можно будет создавать
+    // каких-то конкретных (неабстрактных) птиц, то есть экземпляры классов-потомков
     String featherColor;
 
     public Bird(String featherColor) {
@@ -16,6 +20,7 @@ abstract public class Bird extends Animal {
     }
 
     public abstract String scream();
+    //пометка "абстрактный" означает, что метод объявлен, но не описан
 
     @Override
     public void makeSound() {
