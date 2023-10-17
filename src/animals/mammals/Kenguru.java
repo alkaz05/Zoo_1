@@ -1,10 +1,11 @@
 package animals.mammals;
 
 import animals.Animal;
+import animals.IJumper;
 
-public class Kenguru extends Animal {
+public class Kenguru extends Mammal implements IJumper {
     public Kenguru(String pocketSize) {
-
+        super("", 0, false);
     }
 
     /**
@@ -23,5 +24,10 @@ public class Kenguru extends Animal {
         System.out.println( "кричит ARRRRRRR");
     }
 
+    @Override
+    public void jump()
+    {
+        System.out.println("гигантский прыг");
+    }
 
 }

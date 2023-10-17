@@ -1,6 +1,9 @@
 package animals.birds;
 
-public class Penguin extends Bird{
+import animals.IDiver;
+import animals.IJumper;
+
+public class Penguin extends Bird implements IJumper, IDiver {
     public Penguin() {
         super("черно-белый");
     }
@@ -17,5 +20,15 @@ public class Penguin extends Bird{
     @Override
     public String scream() {
         return "кричит по-пингвиньему";
+    }
+
+    @Override
+    public void jump() {
+        System.out.println("пингвины очень хорошо прыгают");
+    }
+
+    @Override
+    public void dive() {
+        System.out.println("буль-буль");
     }
 }

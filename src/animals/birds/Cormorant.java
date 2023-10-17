@@ -1,6 +1,8 @@
 package animals.birds;
 
-public class Cormorant extends Bird {
+import animals.IDiver;
+
+public class Cormorant extends Bird implements IDiver {
     public Cormorant(String featherColor) {
         super(featherColor);
     }
@@ -14,4 +16,8 @@ public class Cormorant extends Bird {
     @Override
     public void move() {System.out.println("баклан умеет летать, ходить и прыгать ");}
 
+    @Override
+    public void dive() {
+        System.out.println("буль-буль-буль");
+    }
 }

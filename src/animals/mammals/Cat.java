@@ -1,6 +1,8 @@
 package animals.mammals;
 
-public class Cat extends Mammal{
+import animals.IJumper;
+
+public class Cat extends Mammal implements IJumper {
     String breed;
     public Cat ( String name, double weight, String breed) {
         super(name, weight, false);
@@ -10,12 +12,17 @@ public class Cat extends Mammal{
 
     @Override
     public void move() {
-
+        jump();
     }
 
     @Override
     public void makeSound() {
         System.out.println( "[ХХ...ШШШШШШШШШШШ]");
         }
+
+    @Override
+    public void jump() {
+        System.out.println("мягкий прыжок");
     }
+}
 
