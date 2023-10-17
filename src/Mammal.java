@@ -1,3 +1,4 @@
+//by lunaro-4:
 public abstract class Mammal extends Animal {
     private boolean isInPack;
 
@@ -7,7 +8,5 @@ public abstract class Mammal extends Animal {
         this.setName(name);
         this.isInPack = isInPack;
     }
-
-
 
 }
