@@ -1,6 +1,8 @@
 package animals.birds;
 
-public class Flamingo extends Bird{
+import animals.ISwimmer;
+
+public class Flamingo extends Bird implements ISwimmer {
 
     int age;
     double height;
@@ -26,5 +28,10 @@ public class Flamingo extends Bird{
     @Override
     public String scream() {
         return "кричит как фламинго, привлекая внимание";
+    }
+
+    @Override
+    public void swim() { System.out.println("плывет по поверхности воды");
+
     }
 }

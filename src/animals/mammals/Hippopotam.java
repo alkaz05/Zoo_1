@@ -1,6 +1,8 @@
 package animals.mammals;
 
-public class Hippopotam extends Mammal{
+import animals.ISwimmer;
+
+public class Hippopotam extends Mammal implements ISwimmer {
     double weight;
     double speed;
 
@@ -17,4 +19,8 @@ public class Hippopotam extends Mammal{
     public void makeSound() {
         System.out.println("бегемот громко чавкает");
     }
+
+
+    @Override
+    public void swim() { System.out.println("бултых и поплыл"); }
 }
