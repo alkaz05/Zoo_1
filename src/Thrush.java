@@ -2,6 +2,7 @@ public class Thrush extends Bird{
     String beakColor;
     public Thrush(String name, double weight, String featherColor) {
         super(name, weight, featherColor);
+        beakColor = "рыжий";
     }
 
     public Thrush() {
