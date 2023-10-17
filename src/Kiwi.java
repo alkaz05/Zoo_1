@@ -1,4 +1,4 @@
-public class Kiwi extends Bird{
+public class Kiwi extends Bird{ //Светлана
     public Kiwi(String name, double weight, String featherColor) {
         super(name, weight, featherColor);
     }

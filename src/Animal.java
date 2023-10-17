@@ -10,6 +10,9 @@ public abstract class Animal {
         this.name = name;
     }
 
+    public Animal(String pocketSize) {
+    }
+
     public String getName() {
         return name;
     }
@@ -29,5 +32,7 @@ public abstract class Animal {
 
     public abstract void move();
 
-    public abstract void makeSound();
+    public abstract String makeSound();
+
+    public abstract String jumping();
 }
