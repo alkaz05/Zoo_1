@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Cormorant extends Bird {
     public Cormorant(String featherColor) {
         super(featherColor);

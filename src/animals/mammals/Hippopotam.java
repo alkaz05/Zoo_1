@@ -1,3 +1,5 @@
+package animals.mammals;
+
 public class Hippopotam extends Mammal{
     double weight;
     double speed;

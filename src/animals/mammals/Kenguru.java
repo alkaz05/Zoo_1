@@ -1,3 +1,7 @@
+package animals.mammals;
+
+import animals.Animal;
+
 public class Kenguru extends Animal {
     public Kenguru(String pocketSize) {
 

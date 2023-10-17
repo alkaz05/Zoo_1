@@ -1,3 +1,5 @@
+package animals;
+
 public abstract class Animal {
     private double weight;
     private String name;

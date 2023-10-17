@@ -1,3 +1,5 @@
+package animals.mammals;
+
 public class Cat extends Mammal{
     String breed;
     public Cat ( String name, double weight, String breed) {

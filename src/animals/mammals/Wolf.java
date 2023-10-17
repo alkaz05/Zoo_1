@@ -1,3 +1,5 @@
+package animals.mammals;
+
 public class Wolf extends Mammal {
 
     private boolean isFeral;

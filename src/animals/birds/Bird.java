@@ -1,3 +1,7 @@
+package animals.birds;
+
+import animals.Animal;
+
 abstract public class Bird extends Animal {
     String featherColor;
 

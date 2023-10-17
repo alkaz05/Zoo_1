@@ -1,3 +1,7 @@
+package animals.mammals;
+
+import animals.Animal;
+
 //by lunaro-4:
 public abstract class Mammal extends Animal {
     private boolean isInPack;

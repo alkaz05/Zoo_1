@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Penguin extends Bird{
     public Penguin() {
         super("черно-белый");

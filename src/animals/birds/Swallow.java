@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Swallow extends Bird {
     public Swallow(String featherColor) {
         super(featherColor);

@@ -1,3 +1,7 @@
+package animals.mammals;
+
+import animals.Animal;
+
 public abstract class Leo extends Animal {
 int weight = 150;
 int paws = 4;

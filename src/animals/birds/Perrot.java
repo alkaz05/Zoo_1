@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Perrot extends Bird{
     public Perrot(String name, double weight, String featherColor) {
         super(name, weight, featherColor);

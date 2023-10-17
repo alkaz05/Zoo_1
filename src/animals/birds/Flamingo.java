@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Flamingo extends Bird{
 
     int age;

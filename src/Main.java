@@ -1,3 +1,5 @@
+import animals.birds.*;
+
 import java.util.Arrays;
 
 public class Main {
@@ -19,7 +21,7 @@ public class Main {
     }
 
     private static void exampleBirs0() {
-        //Bird b = new Bird("blue") ;
+        //animals.birds.Bird b = new animals.birds.Bird("blue") ;
         Bird cr = new Crow("белая");
         System.out.println(cr.getClass());
         System.out.println(cr.getClass().getSuperclass());

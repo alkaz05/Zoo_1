@@ -1,4 +1,8 @@
-public class Bear extends Animal{
+package animals.mammals;
+
+import animals.Animal;
+
+public class Bear extends Animal {
     public Bear() {
     }
 

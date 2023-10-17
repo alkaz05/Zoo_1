@@ -1,3 +1,5 @@
+package animals.mammals;
+
 public class Capybara extends Mammal{ // Класс Светланы
     public Capybara(String name, double weight, boolean isInPack) {
         super(name, weight, isInPack);

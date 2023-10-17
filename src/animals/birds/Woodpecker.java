@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Woodpecker extends Bird {
     public Woodpecker(String name, String colorCap) {
         super(name, 0, colorCap);

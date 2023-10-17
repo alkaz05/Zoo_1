@@ -1,3 +1,5 @@
+package animals.mammals;
+
 public class Serval extends Mammal {
 
         String breed;

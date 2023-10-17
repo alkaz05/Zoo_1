@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Kalibri extends Bird {
     int size_pecker;
 

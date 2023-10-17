@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Thrush extends Bird{
     String beakColor;
     public Thrush(String name, double weight, String featherColor) {

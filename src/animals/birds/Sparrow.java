@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Sparrow extends Bird {
 
     public Sparrow() {
