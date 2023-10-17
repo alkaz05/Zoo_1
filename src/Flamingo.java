@@ -18,11 +18,11 @@ public class Flamingo extends Bird{
 
     @Override
     public void move() {
-
+        System.out.println("фламинго важно ходит по водоему");
     }
 
     @Override
     public String scream() {
-        return null;
+        return "кричит как фламинго, привлекая внимание";
     }
 }
